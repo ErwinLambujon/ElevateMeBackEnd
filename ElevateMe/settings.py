@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-=$t-vsu6^kf_d!3)vc)qwpqv7=ex_$jaj6xw$%o6309w#gjuc='
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 
@@ -84,10 +84,10 @@ WSGI_APPLICATION = 'ElevateMe.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'elevatemedb',
-        'USER': 'root',
-        'PASSWORD': '',
-        'HOST': '127.0.0.1',
+        'NAME': 'freedb_elevatemedb',
+        'USER': 'freedb_softeng2',
+        'PASSWORD': 'Anwg5RZ@Q5dBUbD',
+        'HOST': 'sql.freedb.tech',
         'PORT': '3306',
         'OPTIONS': {'init_command': 'SET SQL_MODE=STRICT_TRANS_TABLES'},
 
